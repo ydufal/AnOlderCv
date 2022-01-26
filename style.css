@@ -1,0 +1,124 @@
+.page
+{
+	 width: 1000px;
+    margin: auto;
+}
+
+.gauche
+{
+	display: flex ;
+	width: 270px ;
+	height :250px;
+	flex-wrap: wrap ;
+
+}
+
+.identite
+{
+	margin-top: 70px ;
+	margin-left: 20px ;
+	font-family: Arial , serif ;
+	font-size: 1.3em ;
+}
+
+.identite span
+{
+	color : #0F58C7 ;
+}
+
+.photo
+{
+	margin-bottom: 0px ;
+	height: 175px ;
+}
+
+.Permis
+{
+	margin-left: 25px ;
+	font-family: Arial , serif ;
+}
+
+header
+{
+	display: flex ;
+	justify-content: space-between;
+	align-items: center ;
+}
+
+.droite
+{
+	right :0;
+	font-family: Arial , serif ;
+	text-align: right;
+	margin-right: 50px ;
+}
+
+#Objet h1
+{
+	text-align: right ;
+	margin-right: 75px ;
+	padding-right: 25px ;
+	background-color: #AAACAD;
+	height: 45px ;
+	padding-top: 10px ;
+	font-family: serif ;
+	text-decoration: none;
+	width: 550px ;
+	color :#0C0C0C ;
+	box-shadow: 5px 5px 5px grey ;
+
+
+}
+
+#Objet
+{
+	margin-left: 300px ;
+	margin-bottom: 60px ;
+}
+
+#formations , #exp , #competences , #centres_interet
+{
+	display :flex ;
+	justify-content: space-between;
+}
+
+
+#formations span , #exp span , #competences span , #centres_interet span
+{
+	font-weight: bold ;
+}
+
+#formations .para
+{
+	width: 500px ;
+	margin-right: 125px ;
+	border-top: 5px #0F58C7 double ;
+	padding-top: 40px ;
+	padding-right: 75px ;
+	margin-bottom: 20px ; 
+}
+
+
+#exp h1 , #competences h1 , #formations h1 , #centres_interet h1
+{
+	color : #0F58C7 ;
+	margin-left: 15px ;
+	margin-top: 65px ;
+	font-size: 1.35em ;
+
+}
+
+#exp .para , #competences .para , #centres_interet .para
+{
+	width: 600px ;
+	margin-right: 100px ;
+	padding-top: 30px ;
+	border-top: 5px #0F58C7 double ;
+	margin-bottom: 20px ; 
+}
+
+footer
+{
+	background-color: #AAACAD ;
+}
+
